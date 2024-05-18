@@ -10,7 +10,7 @@ public class StudentDbService {
 
     public  String  getStudent() throws Exception{
         try {
-            String url = "jdbc:postgresql://localhost:5432/evo_courses";
+            String url = "jdbc:postgresql://localhost:5432/myDb";
             String password = "password";
             String username = "postgres";
 
